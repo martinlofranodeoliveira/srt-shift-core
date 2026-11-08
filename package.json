@@ -1,0 +1,14 @@
+{
+  "name": "srt-shift-core",
+  "version": "0.1.0",
+  "description": "SRT subtitle shifting: parse, shift by milliseconds, detect overlaps, serialize renumbered. Zero runtime dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/srt.test.js",
+    "demo": "node bin/srt-shift.mjs --assert"
+  }
+}
